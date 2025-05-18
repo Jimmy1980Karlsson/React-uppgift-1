@@ -1,0 +1,30 @@
+.sidebar {
+  width: 150px; /* Smalare sidebar */
+  background-color: #555;
+  color: white;
+  padding: 20px;
+  position: fixed; /* Fixerad position */
+  z-index: 10;
+  left: 0; /* Placera den på vänster sida */
+  top: 65px; /* Exakt under Navbar */
+  height: calc(100vh - 65px); /* Anpassa höjden */
+  box-sizing: border-box; /* Förhindrar padding att öka storleken */
+  
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block; /* Säkerställer att länkar ligger under varandra */
+  padding: 10px;
+  ;
+}
+
+.sidebar a:hover {
+  background-color: #777; /* Ljusare färg vid hover */
+}

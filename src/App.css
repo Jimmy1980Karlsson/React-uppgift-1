@@ -1,38 +1,41 @@
-.App {
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin-top: 80px;
+  margin-left: 220px;
+  padding: 20px;
   text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 20px; /* Lägg till en marginal så att loggan inte påverkar */
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center; /* Centrerar horisontellt */
+  align-items: center; /* Centrerar vertikalt */
+  height: 20vh; /* Justerar höjden på logo-sektionen */
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes colorShift {
+  0% { filter: hue-rotate(0deg); }
+  50% { filter: hue-rotate(180deg); }
+  100% { filter: hue-rotate(360deg); }
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  animation: App-logo-spin infinite 20s linear, colorShift infinite 5s linear;
 }
