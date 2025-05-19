@@ -1,14 +1,14 @@
 .sidebar {
-  width: 150px; /* Smalare sidebar */
+  width: 150px; 
   background-color: #555;
   color: white;
   padding: 20px;
-  position: fixed; /* Fixerad position */
+  position: fixed; 
   z-index: 10;
-  left: 0; /* Placera den på vänster sida */
-  top: 65px; /* Exakt under Navbar */
-  height: calc(100vh - 65px); /* Anpassa höjden */
-  box-sizing: border-box; /* Förhindrar padding att öka storleken */
+  left: 0; 
+  top: 65px; 
+  height: calc(100vh - 65px); 
+  box-sizing: border-box; 
   
 }
 
@@ -20,11 +20,11 @@
 .sidebar a {
   color: white;
   text-decoration: none;
-  display: block; /* Säkerställer att länkar ligger under varandra */
+  display: block; 
   padding: 10px;
   ;
 }
 
 .sidebar a:hover {
-  background-color: #777; /* Ljusare färg vid hover */
+  background-color: #777; 
 }

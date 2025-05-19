@@ -4,11 +4,11 @@
   color: white;
   padding: 15px;
   text-align: center;
-  position: fixed; /* Fixerad position */
+  position: fixed; 
   z-index: 100;
   top: 0;
   left: 0;
-  height: 65px; /* Justerad höjd */
+  height: 65px; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@
 
 .navbar ul {
   list-style: none;
-  display: flex; /* Länkar ligger bredvid varandra */
+  display: flex; 
   gap: 20px;
   padding: 0;
 }
@@ -28,5 +28,5 @@
 }
 
 .navbar a:hover {
-  color: #ddd; /* Ljusare färg vid hover */
+  color: #ddd; 
 }

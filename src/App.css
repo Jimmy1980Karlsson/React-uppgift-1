@@ -13,14 +13,14 @@ main {
 h1 {
   font-size: 24px;
   color: black;
-  margin-bottom: 20px; /* Lägg till en marginal så att loggan inte påverkar */
+  margin-bottom: 20px; 
 }
 
 .logo-container {
   display: flex;
-  justify-content: center; /* Centrerar horisontellt */
-  align-items: center; /* Centrerar vertikalt */
-  height: 20vh; /* Justerar höjden på logo-sektionen */
+  justify-content: center; 
+  align-items: center; 
+  height: 20vh; 
 }
 
 @keyframes App-logo-spin {
